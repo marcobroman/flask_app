@@ -5,7 +5,7 @@ virtualenv env - creates a virtual environment called env for us
 
 ./env/Scripts/activate - activate the virtual environment
 
-pip install -r requiremnts.txt
+pip install -r requirements.txt
 
 python app.py
 
