@@ -1,12 +1,20 @@
-# How to Start Flask App on Windows #
-pip install virtualenv - skip if you already have virtualenv installed
+# How to deploy React/Flask app on Heroku #
 
-virtualenv env - creates a virtual environment called env for us
+## Setting up backend ##
+1. pip install virtualenv - skip if you already have virtualenv installed
 
-./env/Scripts/activate - activate the virtual environment
+2. virtualenv env - creates a virtual environment called env for us
 
-pip install -r requiremnts.txt
+3. ./env/Scripts/activate - activate the virtual environment
 
-python app.py
+4. pip install -r requiremnts.txt
+
+5. python app.py
 
 Congrats you have now run your own flask application
+
+## Setting up Frontend ##
+
+1. cd frontend
+2. npm install
+3. npm start
